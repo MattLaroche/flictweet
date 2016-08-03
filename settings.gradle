@@ -1,1 +1,2 @@
-include ':app'
+include ':app', ':fliclib'
+project(':fliclib').projectDir = new File('app/dependencyprojects/fliclib/fliclib')
